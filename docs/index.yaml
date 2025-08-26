@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  metrics-server:
+  - annotations:
+      category: Analytics
+      images: |
+        - name: metrics-server
+          image: docker.io/bitnami/metrics-server:0.8.0-debian-12-r4
+      licenses: Apache-2.0
+      tanzuCategory: clusterUtility
+    apiVersion: v2
+    appVersion: 0.8.0
+    created: "2025-08-26T21:18:58.748113+05:30"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Metrics Server aggregates resource usage data, such as container
+      CPU and memory usage, in a Kubernetes cluster and makes it available via the
+      Metrics API.
+    digest: 9bde9c218a597ba33b0f0638eaec84a621dc7d1e893059454b418f488d086b4f
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/metrics-server/img/metrics-server-stack-220x234.png
+    keywords:
+    - metrics-server
+    - cluster
+    - metrics
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: metrics-server
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/metrics-server
+    urls:
+    - https://prism-artifacts.github.io/metrics-server/metrics-server-7.4.12.tgz
+    version: 7.4.12
+generated: "2025-08-26T21:18:58.743483+05:30"
