@@ -83,7 +83,7 @@ diagnosticMode:
 ##
 image:
   registry: docker.io
-  repository: bitnami/metrics-server
+  repository: bitnamilegacy/metrics-server
   tag: 0.8.0-debian-12-r4
   digest: ""
   ## Specify a imagePullPolicy
